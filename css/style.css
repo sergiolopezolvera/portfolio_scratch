@@ -139,16 +139,15 @@ iframe{
 
       header h1{
         color: rgb(230,205,174);
+        font-size: 200%;
       }
       
       section h2{
         color: rgb(230,205,174);
+        font-size: 200%;
       }
 
-      section p{
-        color: rgb(230,205,174);
-        width: 80%;
-      }
+
 
       #container1{
         display: inline-block;
@@ -159,6 +158,18 @@ iframe{
         margin-bottom: -60px;
       }
 
+      #container1 header{
+        height: 20%;
+        margin-top: 30%;
+      }
+
+      #container1 section{
+        height:10%;
+      }
+
+      #container1 div{
+        height: 10%;
+      }
       #container1 section h2{
         color: rgb(230,205,174);
         font-size: 200%;
@@ -196,6 +207,7 @@ iframe{
 
       #container2 section p{
         height: 30%;
+        font-size: 180%;
         color: rgb(73,95,117);
       }
       #container2 nav{
@@ -229,6 +241,7 @@ iframe{
       p.interactive{
         height: 45%;
         float: inline-start;
+        font-size: 200%;
       }
 
       i.interactive{
@@ -246,7 +259,8 @@ iframe{
 
       iframe{
         display: block;
-        margin-top: 10%;
+        height: 20%;
+        margin-top: 30%;
         margin-bottom: 0;
       }
 
