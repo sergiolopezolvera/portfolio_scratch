@@ -132,6 +132,10 @@ footer p{
       .profile-pic{
         width: 60%;
       }
+
+      header h1{
+        color: rgb(230,205,174);
+      }
       
       section h2{
         color: rgb(230,205,174);
@@ -175,7 +179,6 @@ footer p{
         transition-duration: 0.5s;
         color: rgb(210, 129, 64);
     }
-
     #container1 a.social:hover{
         font-size: 3rem;
     }
@@ -234,7 +237,7 @@ footer p{
         float: right;
       }
       footer p{
-        color: rgb(73, 95, 117);
+        color: rgb(238, 238, 238);
       }
       
 }
