@@ -195,22 +195,24 @@ iframe{
       }
 
       #container2 section p{
+        height: 30%;
         color: rgb(73,95,117);
       }
       #container2 nav{
         display: inline-block;
         float:left;
-        width: 45%;
+        width: 40%;
+        margin: 10% 2%;
       }
       #container2 nav a{
         display: block;
         background-color: rgb(230,205,174);
         color: rgb(73,95,117);
-        height: 60%;
-        width: 100%;
-        margin: 2% 40% 2% 10%;
+        width: 80%;
+        height: 30%;
+        margin-bottom: 5%;
         text-align: center;
-        font-size: 240%;
+        font-size: 120%;
       }
       
       #container2 nav a:hover{
@@ -221,6 +223,7 @@ iframe{
         display: inline-block;
         float: right;
         width: 45%;
+        height: 30%;
       }
 
       p.interactive{
@@ -232,7 +235,7 @@ iframe{
         display: block;
         padding: 20% 2% 3% 30%;
         float: inline-end;
-        font-size: 15rem;
+        font-size: 1200%;
         color: rgb(73,95,117);
         transition-duration: 10s;
       }
@@ -243,7 +246,7 @@ iframe{
 
       iframe{
         display: block;
-        margin-top: 30%;
+        margin-top: 10%;
         margin-bottom: 0;
       }
 
@@ -253,6 +256,7 @@ iframe{
         height: 60px;
         width: 75%;
         float: right;
+        clear: both;
       }
       footer p{
         color: white;
