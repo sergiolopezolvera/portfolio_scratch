@@ -207,7 +207,7 @@ iframe{
 
       #container2 section p{
         height: 30%;
-        font-size: 180%;
+        font-size: 140%;
         color: rgb(73,95,117);
       }
       #container2 nav{
@@ -222,9 +222,11 @@ iframe{
         color: rgb(73,95,117);
         width: 80%;
         height: 30%;
+        min-height: 30px;
         margin-bottom: 5%;
         text-align: center;
         font-size: 120%;
+        line-height: 0%;
       }
       
       #container2 nav a:hover{
@@ -259,18 +261,18 @@ iframe{
 
       iframe{
         display: block;
-        height: 20%;
-        margin-top: 30%;
-        margin-bottom: 0;
+        height: 10%;
+        margin 0 auto
       }
 
       footer{
         background-color: rgb(210,129,64);
         color: rgb(73, 95, 117);
         height: 60px;
-        width: 75%;
+        width: 100%;
         float: right;
         clear: both;
+        position: fixed;
       }
       footer p{
         color: white;
