@@ -219,6 +219,11 @@ footer p{
         margin-top: 20%;
         margin: 0 auto;
         padding-top: 21%;
+        transition-duration: 10s;
+      }
+
+      #container2 i:hover{
+        color: red;
       }
 
       footer{
