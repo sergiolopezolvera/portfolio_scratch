@@ -224,8 +224,11 @@ footer p{
         float: inline-start;
       }
 
-      #container2 i.interactive{
-        font-size: 5rem;
+      i.interactive{
+        display: block;
+        padding: 20% 2% 3% 30%;
+        float: inline-end;
+        font-size: 15rem;
         color: rgb(73,95,117);
         transition-duration: 10s;
       }
